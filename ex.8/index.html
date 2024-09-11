@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cálculo de Juros Simples</title>
+</head>
+<body>
+    <h1>Cálculo de Juros Simples</h1>
+    <form id="interestForm">
+        <label for="principal">Valor do Depósito (R$):</label>
+        <input type="number" id="principal" step="0.01" required><br><br>
+
+        <label for="rate">Taxa de Juros (% ao ano):</label>
+        <input type="number" id="rate" step="0.01" required><br><br>
+
+        <label for="time">Tempo (anos):</label>
+        <input type="number" id="time" step="0.01" required><br><br>
+
+        <button type="submit">Calcular</button>
+    </form>
+
+    <p id="result"></p>
+
+    
+    <script src="ex-8.js"></script>
+</body>
+</html>
