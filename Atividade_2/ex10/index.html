@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alterar Cor dos Parágrafos</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        p {
+            margin: 10px 0;
+            font-size: 18px;
+        }
+
+        input {
+            margin-top: 20px;
+            padding: 10px;
+            font-size: 16px;
+        }
+
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Alterar Cor dos Parágrafos</h1>
+
+    <p>Este é o primeiro parágrafo.</p>
+    <p>Este é o segundo parágrafo.</p>
+    <p>Este é o terceiro parágrafo.</p>
+    <p>Este é o quarto parágrafo.</p>
+    <p>Este é o quinto parágrafo.</p>
+
+    <input type="color" id="corEscolhida" value="#000000">
+    <button onclick="alterarCorParagrafos()">Alterar Cor</button>
+
+    <script src="paginas.js"></script>
+</body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interações com Botões</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        h1 {
+            color: black;
+        }
+
+        button {
+            margin-right: 10px;
+            padding: 10px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        .container {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1 id="titulo">Texto original do Título</h1>
+    
+    <button onclick="mudarTexto()">Mudar Texto</button>
+    <button onclick="mudarCor()">Mudar Cor</button>
+    <button onclick="adicionarParagrafo()">Adicionar Parágrafo</button>
+
+    <div class="container" id="paragrafoContainer">
+        <!-- Novos parágrafos serão adicionados aqui -->
+    </div>
+
+    <!-- Link para o arquivo JavaScript -->
+    <script src="texto.js"></script>
+
+</body>
+</html>

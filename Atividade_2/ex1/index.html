@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificação de Habilitação para Dirigir</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            margin: 20px;
+        }
+        .message {
+            margin-top: 20px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Verificação de Habilitação para Dirigir</h1>
+        <label for="idade">Idade:</label>
+        <input type="number" id="idade" placeholder="Digite sua idade">
+        <br><br>
+        
+        <label for="carteira">Possui carteira de motorista?</label>
+        <input type="checkbox" id="carteira">
+        <br><br>
+        
+        <button onclick="verificarHabilitacao()">Verificar</button>
+        
+        <p id="resultado" class="message"></p>
+    </div>
+
+   
+    <script src="carteira.js"></script>
+</body>
+</html>
